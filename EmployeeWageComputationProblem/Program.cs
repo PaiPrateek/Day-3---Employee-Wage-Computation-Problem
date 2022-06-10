@@ -57,7 +57,9 @@ namespace EmployeeWageComputationProblem
                         PartTimePresent++;
                         break;
                 }
+                TotalWorkingDays++;
                 TotalWorkingHour+=WorkingHour;
+                TotalWorkingDays += WorkingDays;
                 TotalWagePerMonth += EmployeeWage;
                 Console.WriteLine("Employee Daily Wage is :{0}",EmployeeWage);
                 Console.WriteLine("..........................................");
@@ -72,6 +74,7 @@ namespace EmployeeWageComputationProblem
             Console.WriteLine("..........................................");
             Console.WriteLine("Total Working Hours is :" + TotalWorkingHour);
             Console.WriteLine("..........................................");
+            Console.WriteLine("Total Working Hours is :" + TotalWorkingDays);
         }
     }
 }
