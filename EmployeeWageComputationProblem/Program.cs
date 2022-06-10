@@ -22,7 +22,7 @@ namespace EmployeeWageComputationProblem
             if(Presence == 0)
             {
                 Console.WriteLine("Employee is Absent");
-                EmployeeWage = (WagePerHour * Absent)*FullDayHour;
+                EmployeeWage = (WagePerHour * Absent);
 
 
             }
