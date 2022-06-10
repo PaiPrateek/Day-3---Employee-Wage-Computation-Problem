@@ -24,7 +24,6 @@ namespace EmployeeWageComputationProblem
                 Console.WriteLine("Employee is Absent");
                 EmployeeWage = (WagePerHour * Absent);
 
-
             }
             else
             {
